@@ -7,7 +7,6 @@ library(ggplot2)
 
 # loading data
 tiantan.wt.all = readRDS('./tiantan.wt.all.anno.RDS')
-tiantan.wt.all = readRDS('./tiantan.wt.tmr.anno.RDS')
 
 # overview, cell types
 DimPlot(tiantan.wt.all,reduction='umap',group.by='redefine_type',cols=c('#46AEA0','#FABF7B','#3C93C2','#F0746E','#DDDDDD'))
